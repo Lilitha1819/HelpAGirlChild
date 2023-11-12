@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/customshape"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/listName"
+            android:layout_width="338dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="44dp"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="@color/dark_lilac"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/listName2"
+            android:layout_width="338dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/listName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:text="Change Image"
+            android:textColor="@color/blue_green"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:layout_below="@+id/listName2"
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/custom_shape"
+            android:paddingStart="10dp"
+            android:textColorHint="@color/lilac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/listName3"
+            android:layout_width="338dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:text="Change Name"
+            android:textColor="@color/blue_green"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name_settings"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/listName3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/custom_shape"
+            android:hint="@string/name"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/dark_lilac"
+            android:textColorHint="@color/lilac"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/name_settings"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/custom_button"
+            android:text="Save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_settings" />
+
+</RelativeLayout>

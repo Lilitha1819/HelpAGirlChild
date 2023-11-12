@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829363681925",
+    "project_id": "help--a-girl-child2",
+    "storage_bucket": "help--a-girl-child2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829363681925:android:03e8264711415bede807ec",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829363681925-2kefopc5f6re5binbajd3eerrfblf584.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd94FlQFcwxx7czRdlso29cUwIBJ6wXLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829363681925-2kefopc5f6re5binbajd3eerrfblf584.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
